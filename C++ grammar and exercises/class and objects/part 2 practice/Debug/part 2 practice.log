@@ -1,0 +1,22 @@
+﻿生成启动时间为 2021/5/23 11:20:27。
+     1>项目“C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\part 2 practice\part 2 practice.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\类和对象practice.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "友元.cpp"
+         友元.cpp
+       Link:
+         d:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\Debug\类和对象practice.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\类和对象practice.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\Debug\类和对象practice.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\Debug\类和对象practice.lib" /MACHINE:X86 Debug\practice.obj
+         "Debug\创建一个学生类.obj"
+         "Debug\初始化和清理.obj"
+         "Debug\友元.obj"
+         "Debug\封装：成员属性私有化.obj"
+         "Debug\运算符重载.obj"
+         LINK : 没有找到 C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\Debug\类和对象practice.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>友元.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall goodfriend::goodfriend(void)" (??0goodfriend@@QAE@XZ)，该符号在函数 _main 中被引用
+     1>C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\Debug\类和对象practice.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\dsx\Documents\Visual Studio 2010\Projects\类和对象\part 2 practice\part 2 practice.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.21
